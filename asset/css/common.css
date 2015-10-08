@@ -1,0 +1,157 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,p,blockquote,th,td{margin: 0;padding: 0;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;}
+ul,li{list-style: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+th{text-align: left;}
+td,th,div{word-break:break-all;word-wrap:break-word;}
+form{display:inline;}
+*{/*outline:none*/}
+img{border:0;}
+a{text-decoration:none;}
+em,cite{ font-style:normal;}
+blockquote{quotes: none;}
+html{font-size:12px;}
+.clear{clear:both;}
+.left{float:left;}
+.right{float:right;}
+
+.box_table td{padding:5px;}
+.box_table thead tr{background-color: #f4f5f7;}
+.box_table thead td{font-weight: bold;}
+
+
+.common_table {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    width: 500px;
+}
+.common_table th {
+    background-color: #F1F1F1;
+    text-align: center;
+}
+.common_table .ar {
+    text-align: right;
+}
+.common_table .ac {
+    text-align: center;
+}
+.common_table th, .common_table td {
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding: 3px 5px;
+}
+table.ac td {
+    text-align: center;
+}
+.button_s, .button_m, .button_l, .button_ss, .button_sm, .button_sl, .button_sx, .button_x {
+    background: url("../images/button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 40px;
+    line-height: 38px;
+    padding: 0;
+    text-align: center;
+    width: 102px;
+}
+.button_ss, .button_sm, .button_sl, .button_sx {
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 30px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+.button_ss {
+    background-position: 0 -506px;
+    width: 65px;
+}
+.button_sx {
+    background-position: 0 -302px;
+    color: #555555;
+    text-shadow: 0 1px #FFFFFF;
+    width: 65px;
+}
+
+.inner_con .form_item, .form_button {
+    overflow: hidden;
+    padding-left: 20px;
+}
+.inner_con .form_item {
+    height: auto;
+    line-height: 22px;
+    margin: 6px 0;
+}
+.inner_con .form_item .left, .inner_con .form_item .form_label {
+    float: left;
+    font-size: 14px;
+    margin-left: 20px;
+    text-align: right;
+    width: 120px;
+}
+.subform {
+    border: 1px solid #E7E9EE;
+    border-radius: 4px;
+    max-width: 700px;
+}
+.button_x {
+    background-position: 0 -372px;
+    color: #555555;
+}
+.hidden {display:none}
+.form_info_cue_errer {color:red}
+
+.condition .item {
+    background: none repeat scroll 0 0 #F4F5F8;
+    border: 1px solid #C5C9D8;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 5px 2px 0;
+    padding: 0 12px 0 4px;
+    position: relative;
+}
+.condition .item {
+    background: none repeat scroll 0 0 #F4F5F8;
+    border: 1px solid #C5C9D8;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 12px 0 4px;
+    position: relative;
+}
+.condition .item .close {
+    background: none repeat scroll 0 0 #DD7070;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 9px;
+    height: 10px;
+    line-height: 7px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 9px;
+}
+.condition .item .close {
+    background: none repeat scroll 0 0 #DD7070;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 9px;
+    height: 10px;
+    line-height: 7px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 9px;
+}
+.form_info_cue_sess em {color:green}
+.form_info_cue_errer em {color:red}
+.main_title {height:40px;line-height:40px;font-size:20px;font-weight:800}
