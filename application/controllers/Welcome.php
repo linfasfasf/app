@@ -60,14 +60,14 @@ class Welcome extends CI_Controller {
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
             $output = curl_exec($ch);
             var_dump($output);
-            if(preg_match_all("/\?id=\d*/", $output,$match)){//鍖归厤鏂囩珷id
+            if(preg_match_all("/\?id=\d*/", $output,$match)){//匹配文章id
                 var_dump($match);
                 foreach ($match[0] as $val){
                     $id = substr($val, 4);
                     $article_id = intval($id);
                     var_dump($article_id) ;
                     $preg = '/id='.$article_id.'&amp.*?<\/a>/';
-                    if(preg_match($preg, $output, $matche_title)){ //鍖归厤鏂囩珷鏍囬
+                    if(preg_match($preg, $output, $matche_title)){ //匹配文章标题
                         $title = substr($matche_title[0], 22);
                         $title = substr($title, 0,-4);
                         var_dump($title);
