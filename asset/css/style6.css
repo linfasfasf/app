@@ -1,0 +1,47 @@
+*,html,body{margin:0; padding:0;}
+body{margin:0; padding:0;background:#fff url(/skin/skin.gif);}
+body,input{line-height:20px; font-size:20px; color:#000; font-family:,"Adobe黑体","黑体","宋体",Arial;}
+body,html{overflow-x:hidden; }
+p,div,img {margin:0; padding:0;}
+input{ font-size:18px; -webkit-appearance: none;border-radius: 0px;}
+form{display:inline;}
+img {max-width:300px;border:0;}
+li,ul,ol{ list-style:none;}
+a:link,a:visited {text-decoration:none; color:#0066CC;}
+a:hover,a:active,a:focus {color:#2263a5; text-decoration:none;}
+/*公共DIV代码UBB显示[div=list]样式[/div]*/
+.logo{background-color:#FFFFFF;color: #000000; padding:0px 8px;margin: 0px; text-align:center;}
+.logo a{color: blue;line-height: 28px;letter-spacing: 1px;}
+.list{background-color:#feeb99;color: #000000; padding:0px 8px;margin: 0px; text-align:left;}
+.list a{color: #000000;line-height: 28px;letter-spacing: 1px;}
+.list1{background-color:#0852AD;color: #FFFFFF; padding:0px 8px;margin: 0px; text-align:left;}
+.list1 a{color: #000000;line-height: 28px;letter-spacing: 1px;}
+.list2{background-color:#DC8700;color: #FFFFFF; padding:0px 8px;margin: 0px; text-align:left;}
+.list2 a{color: #000000;line-height: 28px;letter-spacing: 1px;}
+.list3{background-color:#D02232;color: #FFFFFF; padding:0px 8px;margin: 0px; text-align:left;}
+.list3 a{color: #000000;line-height: 28px;letter-spacing: 1px;}
+.list4{background-color:#0FD000;color: #FFFFFF; padding:0px 8px;margin: 0px; text-align:left;}
+.list4 a{color: #000000;line-height: 28px;letter-spacing: 1px;}
+.list5{background-color:#FF0000;color: #FFFFFF; padding:0px 8px;margin: 0px; text-align:left;}
+.list5 a{color: #000000;line-height: 28px;letter-spacing: 1px;}
+.list6{background-color:#009448;color: #FFFFFF; padding:0px 8px;margin: 0px; text-align:left;}
+.list6 a{color: #000000;line-height: 28px;letter-spacing: 1px;}
+.list7{background-color:#1e79ce;color: #FFFFFF; padding:0px 8px;margin: 0px; text-align:left;}
+.list7 a{color: #000000;line-height: 28px;letter-spacing: 1px;}
+/*全站向左对齐宽边-*/
+.main {line-height:26px; padding:4px 4px 3px; font-size:18px; margin-bottom:0px; margin:0px auto; word-break:break-all; box-shadow:0 0 15px #ccc;overflow:hidden;}
+/*彩版居中向左对齐宽边-max-width:800px 宽度*/
+.main1 {line-height:26px; font-size:16px; margin-bottom:0px; margin:0px auto; word-break:break-all; max-width:800px; box-shadow:0 0 15px #ccc;overflow:hidden;border:1px solid #c6c6c6;}
+/*彩版居中向左对齐窄边-max-width:321px 宽度*/
+.main2 {line-height:26px; font-size:16px; margin-bottom:0px; margin:0px auto; word-break:break-all; max-width:321px; box-shadow:0 0 15px #ccc;overflow:hidden;border:1px solid #c6c6c6;}
+/*-版权及日期等-*/
+.copyright {padding:5px; border-top:0px solid #d6d6d6; font-size:13px; line-height:23px;color:#616161;}}
+.copyright a{ margin:0 20px;}
+/*顶部-*/
+.ding {padding:4px 4px 3px;font-size:18px;color:#039;background:#e8f4ff;border-bottom:1px solid #1e79ce;}
+.ding a:hover, .header a:active, .header a:focus {color:#039;}
+.hr{margin:10px 0;height:0px;border:none;border-top:1px #999 solid;color:#999}
+/*-底部版本切换-*/
+.footer {background:#1e79ce; color:#fff;  padding:3px 5px; margin-top:-1px;}
+.footer a {color:#fff; }.footer a:active{ color:#c4e2ef;}
+.footer span{ color:#fff;}
